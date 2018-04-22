@@ -15,7 +15,7 @@ import android.view.View;
 import java.util.ArrayList;
 
 /**
- * Created by Administrator on 2017/11/7 0007.
+ * Created by hwq on 2017/11/7
  */
 public class CustomSeekBar extends View {
 
