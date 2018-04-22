@@ -9,8 +9,10 @@ import java.util.ArrayList;
 public class MainActivity extends AppCompatActivity implements CustomSeekbar.ResponseOnTouch {
 
     private static final String TAG = MainActivity.class.getSimpleName();
+
     private ArrayList<String> mCodeRateYardage = new ArrayList<String>();
     private ArrayList<String> mCodeRateYardage2 = new ArrayList<String>();
+
     private CustomSeekbar mCodeRateSeekBar;
     private CustomSeekbar mCodeRateSeekBar2;
     private int mLevel = 0;
