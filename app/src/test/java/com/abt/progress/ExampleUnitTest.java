@@ -1,4 +1,4 @@
-package com.abt.custom_dynamic_progress;
+package com.abt.progress;
 
 import org.junit.Test;
 

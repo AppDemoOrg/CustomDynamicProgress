@@ -1,4 +1,4 @@
-package com.abt.custom_dynamic_progress;
+package com.abt.progress;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

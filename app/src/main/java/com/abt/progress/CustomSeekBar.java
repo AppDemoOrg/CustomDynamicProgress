@@ -1,4 +1,4 @@
-package com.abt.custom_dynamic_progress;
+package com.abt.progress;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -17,9 +17,9 @@ import java.util.ArrayList;
 /**
  * Created by Administrator on 2017/11/7 0007.
  */
-public class CustomSeekbar extends View {
+public class CustomSeekBar extends View {
 
-    private final String TAG = CustomSeekbar.class.getSimpleName();
+    private final String TAG = CustomSeekBar.class.getSimpleName();
     private int mWidth, mHeight, mDownX, mDownY, mUpX, mUpY, mMoveX, mMoveY, mIconX;
     private int mPerWidth, mCircleRadius, mTextSize;
     private Paint mPaint, mTextPaint, mButtonPaint;
@@ -34,15 +34,15 @@ public class CustomSeekbar extends View {
     private ArrayList<String> mSectionTitle;
     private ResponseOnTouch mResponseOnTouch;
 
-    public CustomSeekbar(Context context) {
+    public CustomSeekBar(Context context) {
         super(context);
     }
 
-    public CustomSeekbar(Context context, AttributeSet attrs) {
+    public CustomSeekBar(Context context, AttributeSet attrs) {
         this(context, attrs, 0);
     }
 
-    public CustomSeekbar(Context context, AttributeSet attrs, int defStyleAttr) {
+    public CustomSeekBar(Context context, AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
         mCurSections = 0;
         mBitmap = Bitmap.createBitmap(900, 900, Bitmap.Config.ARGB_8888);
